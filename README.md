@@ -24,16 +24,16 @@ This project need 2 parameters for run, you have to indicate Environment And Bro
 
 >Note: by default this project only have info for Production Properties.
 
-####Environments value:
+#### Environments value:
 - prod
 - qa
 
-####Brower value:
+#### Brower value:
 - chrome
 - firefox
 - chrome-headless
 
-##Running Test:
+## Running Test:
 
 for get run dependencies, run this command:
 
@@ -51,7 +51,7 @@ $ mvn clean test -Denvironment=prod -Dbrowser=chrome
 $ mvn clean test -Dgroups={groupsName} -Denvironment={environmentValue} -Dbrowser={browserValue}
 ```
 
-####Groups List:
+#### Groups List:
 
 - frontend
 - home
@@ -62,10 +62,10 @@ $ mvn clean test -Dgroups={groupsName} -Denvironment={environmentValue} -Dbrowse
 - anypointStudio
 - anypointDownload
 
-##How to see Execution Results?
+## How to see Execution Results?
 
 Once your execution finished, in the **/Reports** Directory will be create a file named "AutomationHRReport.html", you only have to open in your browser and see the Results test
 
-##Author
+## Author
 
 Almer Meza
