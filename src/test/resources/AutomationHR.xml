@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="AutomationHR" thread-count="1" verbose="1" parallel="methods" data-provider-thread-count="1">
+    <listeners>
+        <listener class-name="com.automation.utils.BaseHTMLReporter" />
+        <listener class-name="com.automation.utils.AnnotationTransformer"/>
+    </listeners>
+    <test name="AutomationHR Tests">
+        <packages>
+            <package name="com.automation.*"></package>
+        </packages>
+    </test>
+</suite>
